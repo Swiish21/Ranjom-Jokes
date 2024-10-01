@@ -8,7 +8,7 @@ def index(request):
   return render(request, 'templates/index.html', {'result': result})
 
 def randomJoke(request):
-  response1 = requests.get('https://official-joke-api.appspot.com/random_joke')
-  data2 = response1.json()
+  response = requests.get('https://official-joke-api.appspot.com/random_joke')
+  data2 = response.json()
   result1 = data2["message"]
   return render(request, 'templates/index.html', {'result': result1})
