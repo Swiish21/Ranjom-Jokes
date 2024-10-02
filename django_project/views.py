@@ -12,3 +12,5 @@ def randomJoke(request):
   data2 = response.json()
   result1 = data2["message"]
   return render(request, 'templates/index.html', {'result': result1})
+
+#dont know if this 2nd function is redundant...
