@@ -13,4 +13,5 @@ def randomJoke(request):
   result1 = data2["message"]
   return render(request, 'templates/index.html', {'result': result1})
 
-#maybe
+
+# Path: django_project/urls.py
