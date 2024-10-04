@@ -14,3 +14,4 @@ def randomJoke(request):
   return render(request, 'templates/index.html', {'result': result1})
 
 #dont know if this 2nd function is redundant...
+#maybe
