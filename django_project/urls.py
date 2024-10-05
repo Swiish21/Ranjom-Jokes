@@ -23,3 +23,4 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('', views.randomJoke, name='randomJoke')
 ]
+# Path: django_project/wsgi.py
