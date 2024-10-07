@@ -24,4 +24,4 @@ urlpatterns = [
     path('', views.randomJoke, name='randomJoke')
 ]
 # Path: django_project/wsgi.py
-# import os
+# import db1
