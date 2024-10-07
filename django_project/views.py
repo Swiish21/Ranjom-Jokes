@@ -15,4 +15,4 @@ def randomJoke(request):
 
 
 # Path: django_project/urls.py
-#def randomJoke is redundant
+#def randomJoke
