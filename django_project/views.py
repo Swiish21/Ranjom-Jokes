@@ -14,5 +14,5 @@ def randomJoke(request):
   return render(request, 'templates/index.html', {'result': result1})
 
 
-# Path: django_project/urls.py
+# xyz
 #def randomJoke
