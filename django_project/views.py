@@ -15,4 +15,4 @@ def randomJoke(request):
 
 
 # def randomjoke is redundant
-#def randomJoke
+#def randomJoke1
