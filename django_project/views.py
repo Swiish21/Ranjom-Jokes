@@ -14,5 +14,5 @@ def randomJoke(request):
   return render(request, 'templates/index.html', {'result': result1})
 
 
-# xyz
+# def randomjoke is redundant
 #def randomJoke
