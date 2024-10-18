@@ -16,3 +16,4 @@ def randomJoke(request):
 
 # def randomjoke is redundant 2 times.
 #def 1
+#def 2
